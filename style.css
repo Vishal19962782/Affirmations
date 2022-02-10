@@ -11,7 +11,7 @@ font-weight:bolder;
 {
     background: rgb(2,0,36);
     background: linear-gradient(273deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(84,191,177,1) 100%);
-    width: 100%;
+    width: 98;
     height:950px;
     display:flex;
     justify-content: center;
@@ -37,4 +37,12 @@ li::before,li::after{
     content: '"';
     font-size: 50px;
     color: rgb(200, 144, 144);
+}
+ul{
+    border: 0px solid white;
+    transition: transform(border) 0.03s;
+}
+ul:hover{
+    border:10px solid rgb(206, 153, 153);
+    transition: 0.3s ease-in-out;
 }
